@@ -7,6 +7,8 @@ import RDR from '/public/graphics/radar.jpg'
 import formsMock from '/public/graphics/formsMock.jpg'
 import academyMock from "/public/graphics/academyMock.jpg"
 import cliMock from "/public/graphics/cliMock.jpg"
+import access from "/public/graphics/access.jpg"
+import loock from "/public/graphics/loock.jpg"
  function CarouselDemo() {
   const slideData = [
     {
@@ -19,10 +21,19 @@ import cliMock from "/public/graphics/cliMock.jpg"
       
       src: SP,
     },
+          {
+      title: "Access Control System",
+      src: access,
+    },
     {
       title: "Radar System",
       
       src: RDR,
+    },
+        {
+      title: "Loock System",
+      
+      src: loock,
     },
            {
       title: "eCLI",
