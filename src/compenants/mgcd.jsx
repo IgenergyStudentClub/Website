@@ -9,6 +9,7 @@ import academyMock from "/public/graphics/academyMock.jpg"
 import cliMock from "/public/graphics/cliMock.jpg"
 import access from "/public/graphics/access.jpg"
 import loock from "/public/graphics/loock.jpg"
+import web from "/public/graphics/web.jpg"
  function CarouselDemo() {
   const slideData = [
     {
@@ -34,6 +35,11 @@ import loock from "/public/graphics/loock.jpg"
       title: "Loock System",
       
       src: loock,
+    },
+        {
+      title: "IGENRGY Website",
+      
+      src: web,
     },
            {
       title: "eCLI",
