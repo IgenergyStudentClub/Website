@@ -28,7 +28,7 @@ function App() {
       <Router >
         <Nav/>
         <Routes>
-          <Route path="/igenergyClub" element={
+          <Route path="/Website" element={
             <>
             <div className='bg-gray-900'>
             

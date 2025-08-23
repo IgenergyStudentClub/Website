@@ -58,7 +58,7 @@ const Foooter = () => {
             <ul className="mt-2 space-y-2">
               <li>
                 <a
-                  href="/"
+                  href="http://personal-me.vercel.app"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   Web

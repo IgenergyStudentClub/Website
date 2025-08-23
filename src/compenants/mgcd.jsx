@@ -4,8 +4,9 @@ import Carousel from "./ui/carousel";
 import RC from '/public/graphics/car.jpg'
 import SP from '/public/graphics/parking2.jpg'
 import RDR from '/public/graphics/radar.jpg'
-import INSC from '/public/graphics/inscr.jpg'
-import academy from "/public/graphics/IG_academy.jpg"
+import formsMock from '/public/graphics/formsMock.jpg'
+import academyMock from "/public/graphics/academyMock.jpg"
+import cliMock from "/public/graphics/cliMock.jpg"
  function CarouselDemo() {
   const slideData = [
     {
@@ -13,24 +14,29 @@ import academy from "/public/graphics/IG_academy.jpg"
       
       src: RC,
     },
-      {
-      title: "IG Academy",
-      
-      src: academy,
-    },
     {
       title: "Smart Park",
       
       src: SP,
     },
     {
-      title: "Radar",
+      title: "Radar System",
       
       src: RDR,
     },
-    {
+           {
+      title: "eCLI",
+      
+      src: cliMock,
+    },
+          {
+      title: "IG Academy",
+      
+      src: academyMock,
+    },
+      {
       title: "Inscription System",
-      src: INSC,
+      src: formsMock,
     },
   ];
   return (
