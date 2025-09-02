@@ -31,6 +31,7 @@ function App() {
           <Route path="/Website" element={
             <>
             <div className='bg-gray-900'>
+              <FloatingDockDemo/>
             
             <FlipWordsDemo/>
         <General/>

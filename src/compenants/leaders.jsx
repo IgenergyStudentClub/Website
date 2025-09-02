@@ -12,12 +12,12 @@ import billal from "/public/graphics/2098873.svg"
 import amina from "/public/graphics/amina.jpg"
 import akram from "/public/graphics/akram1.jpg"
 import sara from "/public/graphics/2098873.svg"
-import boubi from "/public/graphics/2098873.svg"
 import yasin from "/public/graphics/yasin.jpg"
 import abla from "/public/graphics/2098873.svg"
 import isra from "/public/graphics/2098873.svg"
 import moffouk from "/public/graphics/moffouk.jpg"
 import mazouzi from "/public/graphics/mazouzi.jpg"
+import bouby from "/public/graphics/IMG_3094.JPG"
 
 const people = [
   {
@@ -78,7 +78,7 @@ const people = [
     name: "Bouziane Mohammed",
     role: "Ex vice President of interior relations ",
     mark: false,
-    imageUrl: boubi,
+    imageUrl: bouby,
   },
   {
     name: "Nour Meriem",

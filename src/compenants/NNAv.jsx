@@ -46,7 +46,7 @@ export default function Nav() {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex pt-3 space-x-4">
-                <Link to="/igenergyClub">
+                <Link to="/Website">
                 <a className="text-gray-300 hover:bg-gray-700 hover:text-white
                 block rounded-md px-3 py-2 text-base font-medium" href="">Home</a></Link>
                 <Drop2/>
@@ -54,7 +54,7 @@ export default function Nav() {
           <a className="text-gray-300 hover:bg-gray-700 hover:text-white
                 block rounded-md px-3 py-2 text-base font-medium" href="">Team</a></Link>
                 <a className="text-gray-300 hover:bg-gray-700 hover:text-white
-                block rounded-md px-3 py-2 text-base font-medium" href="http://Derradji-gns.github.io/IG_academy">Platform</a>
+                block rounded-md px-3 py-2 text-base font-medium" href="http://IgenergyStudentClub.github.io/Platform">Platform</a>
 
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Nav() {
       <DisclosurePanel className="sm:hidden">
         <div className="space-y-1 px-2 pt-2 pb-3">
           
-           <Link to="/igenergyClub">
+           <Link to="/Website">
           <a className="text-gray-300 hover:bg-gray-700 hover:text-white
                 block rounded-md px-3 py-2 text-base font-medium" href="">Home</a></Link>
                 <Drop />
@@ -107,7 +107,7 @@ export default function Nav() {
           <a className="text-gray-300 hover:bg-gray-700 hover:text-white
                 block rounded-md px-3 py-2 text-base font-medium" href="">Team</a></Link>
                 <a className="text-gray-300 hover:bg-gray-700 hover:text-white
-                block rounded-md px-3 py-2 text-base font-medium" href="http://Derradji-gns.github.io/IG_academy">Platform</a>
+                block rounded-md px-3 py-2 text-base font-medium" href="http://IgenergyStudentClub.github.io/Platform">Platform</a>
           
         </div>
       </DisclosurePanel>
