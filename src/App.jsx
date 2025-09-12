@@ -20,6 +20,7 @@ import Lab from './compenants/lab'
 import IT from './compenants/it'
 import Hour from './compenants/hour'
 import { FlipWordsDemo } from './compenants/hdr'
+import AuroraBackgroundDemo from './compenants/join'
 function App() {
 
   return (
@@ -38,6 +39,7 @@ function App() {
         <CarouselDemo/>
         <TimelineDemo/>
         <InfiniteMovingCardsDemo/>
+        <AuroraBackgroundDemo/>
         
         </div>
             </>
