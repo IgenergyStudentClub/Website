@@ -16,11 +16,11 @@ export default function AuroraBackgroundDemo() {
           ease: "easeInOut",
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4">
-        <div className="font-[serif] text-3xl md:text-7xl font-bold dark:text-white text-center">
+        <div className="font-[serif] text-3xl md:text-7xl font-bold text-white text-center">
           Be part of something <span className="text-blue-500">bigger</span>
         </div>
         <div
-          className="font-[serif] font-extralight text-center text-base md:text-4xl dark:text-neutral-200 py-4">
+          className="font-[serif] font-extralight text-center text-base md:text-4xl text-neutral-200 py-4">
           Join our club now ! A place to connect, grow, and enjoy every moment together
         </div>
         

@@ -21,6 +21,7 @@ import IT from './compenants/it'
 import Hour from './compenants/hour'
 import { FlipWordsDemo } from './compenants/hdr'
 import AuroraBackgroundDemo from './compenants/join'
+import Annonce from './compenants/annonce'
 function App() {
 
   return (
@@ -33,12 +34,11 @@ function App() {
             <>
             <div className='bg-gray-900'>
               
-            
+            <Annonce/>
             <FlipWordsDemo/>
         <General/>
         <CarouselDemo/>
         <TimelineDemo/>
-        <InfiniteMovingCardsDemo/>
         <AuroraBackgroundDemo/>
         
         </div>
