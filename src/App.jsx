@@ -22,20 +22,33 @@ import Hour from './compenants/hour'
 import { FlipWordsDemo } from './compenants/hdr'
 import AuroraBackgroundDemo from './compenants/join'
 import StickyBannerDemo from './compenants/banner'
+import DotGrid from './compenants/bit';
 function App() {
 
   return (
     
     
       <Router >
-        <Nav/>
+  <Nav/>
         <Routes>
           <Route path="/Website" element={
             <>
-            <div className='bg-gray-900'>
+            <div className='bg-gray-900 w-full'>
               
-            <StickyBannerDemo/>
-            <FlipWordsDemo/>
+<div style={{ width: '100%', height: '600px', position: 'relative' }}>
+  <DotGrid
+    dotSize={4}
+    gap={15}
+    baseColor="#5227FF"
+    activeColor="#5227FF"
+    proximity={120}
+    shockRadius={250}
+    shockStrength={5}
+    resistance={750}
+    returnDuration={1.5}
+  />
+</div>
+            
         <General/>
         <CarouselDemo/>
         <TimelineDemo/>

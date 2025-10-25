@@ -24,8 +24,9 @@ export default function AuroraBackgroundDemo() {
           Join our club now ! A place to connect, grow, and enjoy every moment together
         </div>
         
-<button className="font-[serif] px-8 py-2 rounded-md bg-blue-500 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
-  Sign Up
+<button className="font-[serif] px-8 py-2 rounded-md bg-blue-500 text-white font-bold transition duration-200 hover:bg-blue-600  border-2 border-transparent ">
+  <a href="https://forms.gle/zLyV3ThNEHNXEezt8">Sign Up</a>
+  
 </button>
       </motion.div>
     </AuroraBackground>

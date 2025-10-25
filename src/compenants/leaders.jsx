@@ -20,71 +20,87 @@ import mazouzi from "/public/graphics/mazouzi.jpg"
 import bouby from "/public/graphics/IMG_3094.JPG"
 
 const people = [
+    {
+    name: "Bouziane Mohammed Faouzi",
+    role: "President ",
+    mark: false,
+    imageUrl: bouby,
+  },
+      {
+    name: "Sibelkhir Moncef",
+
+    role: "vice President",
+    mark: false,
+
+    imageUrl: moncef,
+  },
+    {
+    name: "Guerroudj Abdelwaheb",
+    role: "Secretary General",
+    mark: false,
+    imageUrl: waheb,
+  },
+    {
+    name: "Tayeb-Bey Akram",
+    role: "President of RE Departement",
+    mark: false,
+    imageUrl: akram,
+  },  
+        {
+            name: 'Mazouzi Amine',
+    role: 'President of Development Departement',
+    mark: false,
+    imageUrl: mazouzi,
+    },
+        {
+    name: "Moad Mekki",
+    role: "Electronics First Manager",
+    mark: false,
+    imageUrl: isra,
+  },  
+  {
+    name: "Taleb Ali",
+    role: "Electronics Second Manager",
+    mark: false,
+    imageUrl: ali,
+  },
+      {
+    name: "Ould Rabah Riad",
+    role: "President of Design Departement",
+    mark: false,
+    imageUrl : isra,
+  },  
+   {
+    name: "Nour Meriem",
+    role: "President of Communication Department",
+    mark: false,
+    imageUrl: nour,
+  },
+    {
+    name: "Achouri Sara",
+    role: "Logistics Manager",
+    mark: false,
+    imageUrl: sara,
+  },
   {
     name: "Bendriss Anis",
-    role: "President | Premium Member",
+    role: "Ex President ",
     mark: false,
     imageUrl: anis,
   },
+
   {
     name: "Hadjij Chourouk",
-    role: "Vice President | Designer",
+    role: "Ex Vice President",
     mark: false,
     imageUrl: sun,
   },
 
   {
     name: "Benouali Omar Walid",
-    role: "Ex president | Premium Member",
+    role: "Ex president ",
     mark: false,
     imageUrl: walid,
-  },
-  {
-    name: "Derradji Amine",
-
-    role: "Developement Manager",
-    mark: true,
-
-    imageUrl: me,
-  },
-  {
-    name: "Taleb Ali",
-    role: "Secretary General",
-    mark: false,
-    imageUrl: ali,
-  },
-  {
-    name: "Sibelkhir Moncef",
-
-    role: "  President of Developemnt Department",
-    mark: false,
-
-    imageUrl: moncef,
-  },
-  {
-    name: "Guerroudj Abdelwaheb",
-    role: "Ex vice president | Social Media Manager",
-    mark: false,
-    imageUrl: waheb,
-  },
-  {
-    name: "Farah Messaouden",
-    role: "president of Design Department",
-    mark: false,
-
-    imageUrl: farah,
-  },
-  {
-    name: "Bouziane Mohammed",
-    role: "Ex vice President of interior relations ",
-    mark: false,
-    imageUrl: bouby,
-  },
-  {
-    name: "Nour Meriem",
-    role: "President of Communication Department",
-    mark: false,
-    imageUrl: nour,
   },
   {
     name: "Touati Billal",
@@ -100,18 +116,7 @@ const people = [
     imageUrl: amina,
   },
 
-  {
-    name: "Tayeb-Bey Akram",
-    role: "RE Manager",
-    mark: false,
-    imageUrl: akram,
-  },
-  {
-    name: "Achouri Sara",
-    role: "Ex Vice President of External Relations",
-    mark: false,
-    imageUrl: sara,
-  },
+
   {
     name: "Soufi Yacine",
     role: "Designer",
@@ -137,12 +142,7 @@ const people = [
     mark: false,
     imageUrl: moffouk,
   },
-      {
-            name: 'Mazouzi Amine',
-    role: 'Active Member',
-    mark: false,
-    imageUrl: mazouzi,
-    },
+
 ];
   
   export default function Leaders() {
